@@ -864,7 +864,6 @@
         .footer-section a:hover {
             color: white;
             padding-left: 5px;
-            text-decoration: underline;
         }
 
         .footer-bottom {
@@ -921,41 +920,11 @@
             transform: scale(1.02);
             box-shadow: 0 8px 25px rgba(0,0,0,0.15);
         }
-        
-        .hero-badge{
-            margin-top: 60px;
-        }
 
-        .hero-title{
-            margin-top: -10px;
-        }
         /* Responsive */
-@media (max-width: 768px) {
-            html, body {
-                width: 100%;
-                max-width: 100%;
-            }
-
-            .nav-container {
-                padding: 0 1rem;
-                gap: 1rem;
-                width: 100%;
-                max-width: 100%;
-            }
-
-            .logo {
-                font-size: 1.4rem;
-                gap: 0.3rem;
-                max-width: calc(100% - 60px);
-            }
-
-            .logo i {
-                font-size: 1.2rem;
-            }
-
+        @media (max-width: 768px) {
             .hamburger {
                 display: flex;
-                min-width: 40px;
             }
 
             .nav-menu {
@@ -1061,39 +1030,12 @@
                 font-weight: bold;
             }
             
-            .hero {
-                height: 50vh;
-                min-height: 400px;
-                overflow: hidden;
-                width: 100%;
-            }
-
-            .hero-content {
-                width: 100%;
-                max-width: 100%;
-                padding: 0 1rem;
-            }
-
             .hero h1 {
-                font-size: 2rem;
-            }
-
-            .hero p {
-                font-size: 1rem;
+                font-size: 2.5rem;
             }
             
-            .section {
-                padding: 3rem 0;
-                padding-left: 1rem;
-                padding-right: 1rem;
-                width: 100%;
-                max-width: 100%;
-                overflow: hidden;
-            }
-
             .section h2 {
-                font-size: 1.8rem;
-                margin-bottom: 2rem;
+                font-size: 2rem;
             }
 
             .content-grid {
@@ -1101,173 +1043,42 @@
                 gap: 2rem;
             }
 
-            .content-block {
-                padding: 1.5rem;
-                margin-bottom: 1rem;
-                width: 100%;
-                max-width: 100%;
-                overflow: hidden;
-            }
-
-            .content-block h3 {
-                font-size: 1.4rem;
-                flex-wrap: wrap;
-            }
-
-            .cards {
-                grid-template-columns: 1fr;
-                gap: 1.5rem;
-                padding: 0;
-                width: 100%;
-                max-width: 100%;
-            }
-
-            .card {
-                padding: 1.5rem;
-                margin: 0;
-                width: 100%;
-                max-width: 100%;
-            }
-
-            .lego-gallery {
-                grid-template-columns: 1fr;
-                gap: 1.5rem;
-                padding: 0;
-                width: 100%;
-                max-width: 100%;
-            }
-
-            .gallery-card {
-                margin: 0;
-                width: 100%;
-                max-width: 100%;
-            }
-
-            .gallery-image {
-                height: 200px;
-            }
-
-            .gallery-content {
-                padding: 1.5rem;
-            }
-
             .nav-container {
                 padding: 0 1rem;
-            }
-
-            .footer {
-                padding: 2rem 0 1rem;
-                margin-top: 2rem;
             }
 
             .footer-content {
                 grid-template-columns: 1fr;
                 text-align: left;
-                gap: 2rem;
-                padding: 0 1rem;
-            }
-
-            .footer-section {
-                width: 100%;
-                max-width: 100%;
-            }
-
-            .footer-section h3 {
-                font-size: 1.2rem;
-                margin-bottom: 1rem;
-            }
-
-            .footer-section p,
-            .footer-section a {
-                font-size: 0.9rem;
             }
 
             .social-links {
-                justify-content: flex-start;
-                flex-wrap: wrap;
-            }
-
-            .footer-map {
-                width: 100%;
-                margin-top: 1rem;
+                justify-content: left;
             }
 
             .footer-map iframe {
-                width: 100%;
-                height: 200px;
-                max-width: 100%;
-            }
-
-            .footer-bottom {
-                padding: 1.5rem 1rem 1rem;
-                font-size: 0.85rem;
+                height: 180px;
             }
 
             .lego-showcase {
                 gap: 0.5rem;
-                flex-wrap: wrap;
             }
 
             .showcase-brick {
-                width: 30px;
-                height: 22px;
-                font-size: 1.2rem;
+                width: 35px;
+                height: 25px;
             }
 
             .floating-lego {
-                width: 20px;
-                height: 20px;
-                font-size: 20px;
-            }
-
-            .building-animation {
-                height: 60px;
-                margin: 2rem 0;
-                flex-wrap: wrap;
-            }
-
-            .building-brick {
-                width: 28px;
-                height: 20px;
-                font-size: 1rem;
-            }
-
-            .hero-badge {
-                font-size: 0.8rem;
-                padding: 0.4rem 1rem;
-            }
-
-            .list li {
-                font-size: 0.9rem;
-                padding: 0.6rem 0;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .hero h1 {
-                font-size: 1.6rem;
-            }
-
-            .section h2 {
-                font-size: 1.5rem;
-            }
-
-            .content-block h3 {
-                font-size: 1.2rem;
-            }
-
-            .card h3 {
-                font-size: 1.1rem;
-            }
-
-            .footer-section h3 {
-                font-size: 1.1rem;
+                width: 25px;
+                height: 25px;
+                font-size: 25px;
             }
         }
     </style>
 </head>
 <body>
-     <!-- Floating LEGO Decorations -->
+    <!-- Floating LEGO Decorations -->
     <div class="floating-legos">
         <div class="floating-lego lego-red"><i class="fas fa-cube"></i></div>
         <div class="floating-lego lego-blue"><i class="fas fa-cube"></i></div>
@@ -1280,7 +1091,7 @@
     <!-- Navbar -->
     <nav class="navbar">
         <div class="nav-container">
-            <a href="index.php" class="logo">
+            <a href="index.html" class="logo">
                 <i class="fas fa-robot"></i>
                 DC Robotic
             </a>
@@ -1291,42 +1102,42 @@
             </div>
             <ul class="nav-menu" id="nav-menu">
                 <li class="nav-item">
-                    <a href="index.php" class="nav-link">Home</a>
+                    <a href="index.html" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link nav-link-with-dropdown active">Robotica <i class="fas fa-chevron-down"></i></a>
+                    <a href="#" class="nav-link nav-link-with-dropdown">Robotica <i class="fas fa-chevron-down"></i></a>
                     <div class="dropdown">
-                        <a href="mozaik.php">Mozaik</a>
-                        <a href="wedo.php">WeDo</a>
-                        <a href="basic-mechanic.php">Basic Mechanic</a>
-                        <a href="robot.php">Robot</a>
+                        <a href="mozaik.html">Mozaik</a>
+                        <a href="wedo.html">WeDo</a>
+                        <a href="basic-mechanic.html">Basic Mechanic</a>
+                        <a href="robot.html">Robot</a>
                     </div>
                     <div class="mobile-dropdown">
-                        <a href="mozaik.php" class="active-sub">Mozaik</a>
-                        <a href="wedo.php">WeDo</a>
-                        <a href="basic-mechanic.php">Basic Mechanic</a>
-                        <a href="robot.php">Robot</a>
+                        <a href="mozaik.html" class="active-sub">Mozaik</a>
+                        <a href="wedo.html">WeDo</a>
+                        <a href="basic-mechanic.html">Basic Mechanic</a>
+                        <a href="robot.html">Robot</a>
                     </div>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link nav-link-with-dropdown">Coding <i class="fas fa-chevron-down"></i></a>
                     <div class="dropdown">
-                        <a href="arduino.php">Arduino</a>
-                        <a href="scratch.php">Scratch</a>
+                        <a href="arduino.html">Arduino</a>
+                        <a href="scratch.html">Scratch</a>
                     </div>
                     <div class="mobile-dropdown">
-                        <a href="arduino.php">Arduino</a>
-                        <a href="scratch.php">Scratch</a>
+                        <a href="arduino.html">Arduino</a>
+                        <a href="scratch.html">Scratch</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a href="gallery.php" class="nav-link">Gallery</a>
+                    <a href="gallery.html" class="nav-link">Gallery</a>
                 </li>
                 <li class="nav-item">
-                    <a href="pricing.php" class="nav-link">Daftar Harga</a>
+                    <a href="pricing.html" class="nav-link">Daftar Harga</a>
                 </li>
                 <li class="nav-item">
-                    <a href="kontak.php" class="nav-link">Kontak & Lokasi</a>
+                    <a href="kontak.html" class="nav-link">Kontak & Lokasi</a>
                 </li>
             </ul>
         </div>
@@ -1336,9 +1147,9 @@
     <section class="hero hero-bg">
         <div class="hero-content">
             <div class="hero-badge">
-                <i class="fas fa-cubes"></i> Level: Pemula  (4-5 tahun)
+                <i class="fas fa-cubes"></i> Program Level 1
             </div>
-            <h1 class="hero-title">Mozaik</h1>
+            <h1>Mozaik</h1>
             <p>Membangun fondasi kreativitas dan logika melalui permainan konstruksi</p>
             
             <!-- LEGO Showcase Animation -->
@@ -1510,69 +1321,61 @@
             
             <div class="lego-gallery">
                 <div class="gallery-card">
-                <div class="gallery-image" style="overflow: hidden; height: 200px; border-radius: 12px; display: flex; align-items: center; justify-content: center; background: #f8f9fa;">
-                   <img src="../assets/images/mozaik/Bus_3D.jpeg" alt="bus 3D" style="max-width: 100%; max-height: 100%; object-fit: cover; border-radius: 12px;">
-                </div>
-
+                    <div class="gallery-image" style="background: linear-gradient(135deg, rgba(229,62,62,0.1), rgba(229,62,62,0.05)), url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80') center/cover;">
+                    </div>
                     <div class="gallery-content">
                         <div class="lego-brick lego-red" style="font-size: 40px; margin-bottom: 1rem;"><i class="fas fa-cube"></i></div>
-                        <h4>Bus 3D</h4>
+                        <h4>LEGO DUPLO Sets</h4>
                         <p>Balok DUPLO yang aman dan mudah digenggam untuk anak-anak</p>
                     </div>
                 </div>
 
                 <div class="gallery-card">
-                <div class="gallery-image" style="overflow: hidden; height: 200px; border-radius: 12px; display: flex; align-items: center; justify-content: center; background: #f8f9fa;">
-                    <img src="../assets/images/mozaik/Lion_3D.jpeg" alt="Lion 3D" style="max-width: 100%; max-height: 100%; object-fit: contain; border-radius: 12px;">
-                </div>
-
+                    <div class="gallery-image" style="background: linear-gradient(135deg, rgba(66,153,225,0.1), rgba(66,153,225,0.05)), url('https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80') center/cover;">
+                    </div>
                     <div class="gallery-content">
                         <div class="lego-brick lego-blue" style="font-size: 40px; margin-bottom: 1rem;"><i class="fas fa-cube"></i></div>
-                        <h4>Lion 3D</h4>
+                        <h4>Aktivitas Warna</h4>
                         <p>Pengenalan warna melalui sorting dan pengelompokan blok</p>
                     </div>
                 </div>
 
                 <div class="gallery-card">
-                <div class="gallery-image" style="overflow: hidden; height: 200px; border-radius: 12px; display: flex; align-items: center; justify-content: center; background: #f8f9fa;">
-                    <img src="../assets/images/mozaik/Mario.jpeg" alt="mario 2D" style="max-width: 100%; max-height: 100%; object-fit: contain; border-radius: 12px;">
-                </div>
+                    <div class="gallery-image" style="background: linear-gradient(135deg, rgba(72,187,120,0.1), rgba(72,187,120,0.05)), url('https://images.unsplash.com/photo-1596464716127-f2a82984de30?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80') center/cover;">
+                    </div>
                     <div class="gallery-content">
                         <div class="lego-brick lego-green" style="font-size: 40px; margin-bottom: 1rem;"><i class="fas fa-cube"></i></div>
-                        <h4>Mario 2D</h4>
+                        <h4>Konstruksi Bebas</h4>
                         <p>Sesi kreativitas tanpa batas untuk eksplorasi anak</p>
                     </div>
                 </div>
 
                 <div class="gallery-card">
-                <div class="gallery-image" style="overflow: hidden; height: 200px; border-radius: 12px; display: flex; align-items: center; justify-content: center; background: #f8f9fa;">
-                    <img src="../assets/images/mozaik/The_airpot.jpeg" alt="The Airpot 3D" style="max-width: 100%; max-height: 100%; object-fit: contain; border-radius: 12px;">
-                </div>
+                    <div class="gallery-image" style="background: linear-gradient(135deg, rgba(236,201,75,0.1), rgba(236,201,75,0.05)), url('https://images.unsplash.com/photo-1587654780291-39c9404d746b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80') center/cover;">
+                    </div>
                     <div class="gallery-content">
                         <div class="lego-brick lego-yellow" style="font-size: 40px; margin-bottom: 1rem;"><i class="fas fa-cube"></i></div>
-                        <h4>The Airpot</h4>
+                        <h4>Pola & Susunan</h4>
                         <p>Latihan mengikuti dan membuat pola sederhana</p>
                     </div>
                 </div>
 
                 <div class="gallery-card">
-                <div class="gallery-image" style="overflow: hidden; height: 200px; border-radius: 12px; display: flex; align-items: center; justify-content: center; background: #f8f9fa;">
-                    <img src="../assets/images/mozaik/The_city.jpeg" alt="The City" style="max-width: 100%; max-height: 100%; object-fit: contain; border-radius: 12px;">
-                </div>
+                    <div class="gallery-image" style="background: linear-gradient(135deg, rgba(237,137,54,0.1), rgba(237,137,54,0.05)), url('https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80') center/cover;">
+                    </div>
                     <div class="gallery-content">
                         <div class="lego-brick lego-orange" style="font-size: 40px; margin-bottom: 1rem;"><i class="fas fa-cube"></i></div>
-                        <h4>The City</h4>
+                        <h4>Hasil Karya Anak</h4>
                         <p>Kreasi anak-anak dari berbagai sesi pembelajaran</p>
                     </div>
                 </div>
 
                 <div class="gallery-card">
-                <div class="gallery-image" style="overflow: hidden; height: 200px; border-radius: 12px; display: flex; align-items: center; justify-content: center; background: #f8f9fa;">
-                    <img src="../assets/images/mozaik/Transformers_3D.jpeg" alt="Transformers 3D" style="max-width: 100%; max-height: 100%; object-fit: contain; border-radius: 12px;">
-                </div>
+                    <div class="gallery-image" style="background: linear-gradient(135deg, rgba(159,122,234,0.1), rgba(159,122,234,0.05)), url('https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80') center/cover;">
+                    </div>
                     <div class="gallery-content">
                         <div class="lego-brick lego-purple" style="font-size: 40px; margin-bottom: 1rem;"><i class="fas fa-cube"></i></div>
-                        <h4>Transformers 3D</h4>
+                        <h4>Kelas Interaktif</h4>
                         <p>Suasana pembelajaran yang fun dan engaging</p>
                     </div>
                 </div>
@@ -1587,10 +1390,16 @@
                 <h3><i class="fas fa-robot"></i> DC Robotic School</h3>
                 <p>Institusi pendidikan teknologi terdepan yang mengajarkan robotika dan coding dengan pendekatan inovatif dan menyenangkan.</p>
                 <div class="social-links">
-                    <a href="https://www.instagram.com/dc_robotic_school" target="_blank" rel="noopener noreferrer" title="Follow us on Instagram">
+                    <a href="https://facebook.com/dcroboticschool" target="_blank" rel="noopener noreferrer" title="Follow us on Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://instagram.com/dcroboticschool" target="_blank" rel="noopener noreferrer" title="Follow us on Instagram">
                         <i class="fab fa-instagram"></i>
                     </a>
-                    <a href="https://wa.me/628129743289?text=Halo%20DC%20Robotic%20School,%20saya%20tertarik%20untuk%20mengetahui%20lebih%20lanjut%20tentang%20program%20kursus%20robotika" target="_blank" rel="noopener noreferrer" title="Contact us on WhatsApp">
+                    <a href="https://youtube.com/@dcroboticschool" target="_blank" rel="noopener noreferrer" title="Subscribe to our YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://wa.me/6281234567890?text=Halo%20DC%20Robotic%20School,%20saya%20tertarik%20untuk%20mengetahui%20lebih%20lanjut%20tentang%20program%20Mozaik" target="_blank" rel="noopener noreferrer" title="Contact us on WhatsApp">
                         <i class="fab fa-whatsapp"></i>
                     </a>
                 </div>
@@ -1598,32 +1407,33 @@
             
             <div class="footer-section">
                 <h3><i class="fas fa-graduation-cap"></i> Program Kami</h3>
-                <p><a href="mozaik.php">Mozaik</a></p>
-                <p><a href="wedo.php">WeDo</a></p>
-                <p><a href="basic-mechanic.php">Basic Mechanic</a></p>
-                <p><a href="robot.php">Robot</a></p>
-                <p><a href="arduino.php">Arduino</a></p>
-                <p><a href="scratch.php">Scratch</a></p>
+                <p><a href="mozaik.html">Mozaik</a></p>
+                <p><a href="wedo.html">WeDo</a></p>
+                <p><a href="basic-mechanic.html">Basic Mechanic</a></p>
+                <p><a href="robot.html">Robot</a></p>
+                <p><a href="arduino.html">Arduino</a></p>
+                <p><a href="scratch.html">Scratch</a></p>
             </div>
             
             <div class="footer-section">
                 <h3><i class="fas fa-info-circle"></i> Informasi</h3>
-                <p><a href="gallery.php">Gallery</a></p>
-                <p><a href="pricing.php">Daftar Harga</a></p>
-                <p><a href="kontak.php">Kontak & Lokasi</a></p>
+                <p><a href="gallery.html">Gallery</a></p>
+                <p><a href="pricing.html">Daftar Harga</a></p>
+                <p><a href="kontak.html">Kontak & Lokasi</a></p>
+                <p><a href="#">Blog & Artikel</a></p>
             </div>
             
             <div class="footer-section">
                 <h3><i class="fas fa-map-marker-alt"></i> Kontak & Lokasi</h3>
                 <p><i class="fas fa-envelope"></i> info@dcrobotic.sch.id</p>
-                <p><i class="fas fa-phone"></i> +62 812-9743-289</p>
-                <p><i class="fas fa-map-marker-alt"></i> Cikarang Utara, Bekasi</p>
+                <p><i class="fas fa-phone"></i> +62 812 3456 7890</p>
+                <p><i class="fas fa-map-marker-alt"></i> Jakarta, Indonesia</p>
                 <p><i class="fas fa-clock"></i> Senin - Sabtu, 08:00 - 17:00</p>
                 
                 <!-- Google Maps Embed -->
-                <div class="footer-map" style="position: relative;">
+                <div class="footer-map">
                     <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.875974703297!2d107.17713289999999!3d-6.280031699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6985f4e3298a69%3A0xa630106e896ad37e!2sDC%20Robotic%20School!5e0!3m2!1sid!2sid!4v1760963869856!5m2!1sid!2sid" 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d106.8195613!3d-6.2146594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5390917b759%3A0x6b45e67356080477!2sMonas%2C%20Central%20Jakarta%2C%20Jakarta!5e0!3m2!1sen!2sid!4v1635834950000!5m2!1sen!2sid" 
                         width="100%" 
                         height="200" 
                         style="border:0; border-radius: 8px; margin-top: 1rem;" 
@@ -1632,10 +1442,6 @@
                         referrerpolicy="no-referrer-when-downgrade"
                         title="Lokasi DC Robotic School">
                     </iframe>
-                    <a href="https://maps.app.goo.gl/djTmFpx8j2LE4FjD9" 
-                       target="_blank" 
-                       style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: block; cursor: pointer;">
-                    </a>
                 </div>
             </div>
         </div>
@@ -1646,18 +1452,6 @@
     </footer>
 
     <script>
-window.addEventListener('load', () => {
-  // Pastikan body dapat discroll setelah semua animasi awal selesai
-  document.body.style.overflowY = 'auto';
-  document.body.style.overflowX = 'hidden';
-  
-  // Kadang fokus awal bukan di body
-  setTimeout(() => {
-    document.body.focus();
-    window.scrollTo(0, 0);
-  }, 500);
-});
-
         // Mark current page in navbar
         const currentPage = window.location.pathname.split('/').pop() || 'index.html';
 
@@ -1734,34 +1528,29 @@ window.addEventListener('load', () => {
             }
         });
 
-       // Progress bar pelangi (disabled on mobile for smooth scrolling)
-const isMobile = window.innerWidth <= 768 || 'ontouchstart' in window;
+        // Progress bar pelangi
+const progressBar = document.createElement('div');
+progressBar.style.cssText = `
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background: linear-gradient(90deg, #00979d, #00b4d8, #0077b6, #06d6a0, #f77f00, #9d4edd);
+    z-index: 9999;
+    transition: width 0.3s ease;
+    box-shadow: 0 0 10px rgba(0,180,216,0.5);
+`;
+document.body.appendChild(progressBar);
 
-if (!isMobile) {
-    const progressBar = document.createElement('div');
-    progressBar.style.cssText = `
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 0%;
-        height: 3px;
-        background: linear-gradient(90deg, #00979d, #00b4d8, #0077b6, #06d6a0, #f77f00, #9d4edd);
-        z-index: 9999;
-        transition: width 0.1s ease;
-        box-shadow: 0 0 10px rgba(0,180,216,0.5);
-        pointer-events: none;
-    `;
-    document.body.appendChild(progressBar);
-
-    // Progress bar update for desktop only
-    window.addEventListener('scroll', () => {
-        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        const docHeight = document.documentElement.scrollHeight;
-        const windowHeight = window.innerHeight;
-        const scrollPercent = (scrollTop / (docHeight - windowHeight)) * 100;
-        progressBar.style.width = `${Math.min(Math.max(scrollPercent, 0), 100)}%`;
-    }, { passive: true });
-}
+window.addEventListener('scroll', () => {
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const docHeight = document.documentElement.scrollHeight; // Total height of the document
+    const windowHeight = window.innerHeight; // Height of the visible viewport
+    const scrollPercent = (scrollTop / (docHeight - windowHeight)) * 100;
+    console.log(`ScrollTop: ${scrollTop}, DocHeight: ${docHeight}, WindowHeight: ${windowHeight}, ScrollPercent: ${scrollPercent}`);
+    progressBar.style.width = `${Math.min(scrollPercent, 100)}%`;
+});
 
         // Scroll Reveal Animation
         const observerOptions = {
@@ -1847,26 +1636,17 @@ if (!isMobile) {
             footerObserver.observe(footer);
         });
 
-        // Parallax effect for floating LEGO bricks (desktop only)
-        if (!isMobile) {
-            let parallaxElements = document.querySelectorAll('.floating-lego');
-            let ticking = false;
-
-            window.addEventListener('scroll', () => {
-                if (!ticking) {
-                    requestAnimationFrame(() => {
-                        const scrolled = window.pageYOffset;
-                        parallaxElements.forEach((element, index) => {
-                            const speed = 0.3 + (index * 0.1);
-                            const yPos = -(scrolled * speed);
-                            element.style.transform = `translateY(${yPos}px)`;
-                        });
-                        ticking = false;
-                    });
-                    ticking = true;
-                }
-            }, { passive: true });
-        }
+        // Parallax effect for floating LEGO bricks
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const parallax = document.querySelectorAll('.floating-lego');
+            
+            parallax.forEach((element, index) => {
+                const speed = 0.3 + (index * 0.1);
+                const yPos = -(scrolled * speed);
+                element.style.transform = `translateY(${yPos}px)`;
+            });
+        });
 
         // Smooth scrolling for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -1911,7 +1691,9 @@ if (!isMobile) {
                 setTimeout(() => {
                     const brick = document.createElement('div');
                     brick.innerHTML = '<i class="fas fa-cube"></i>';
-                    brick.style.cssText = ` ndom() * 30}px;
+                    brick.style.cssText = `
+                        position: fixed;
+                        font-size: ${20 + Math.random() * 30}px;
                         color: ${colors[Math.floor(Math.random() * colors.length)]};
                         left: ${Math.random() * window.innerWidth}px;
                         top: -50px;
