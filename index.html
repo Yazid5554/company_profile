@@ -619,9 +619,11 @@
         }
 
         .hero-logo {
-            width: 150px;
-            height: 150px;
-            background: white;
+            width: 180px;
+            height: 180px;
+            background-image: url('images/logo/logo.png');
+            background-size: cover;
+            background-position: center;
             border-radius: 50%;
             margin: 0 auto 2rem;
             display: flex;
@@ -815,6 +817,7 @@
         .footer-section a:hover {
             color: white;
             padding-left: 5px;
+            text-decoration: underline;
         }
 
         .footer-bottom {
@@ -887,7 +890,7 @@
         }
 
         /* Responsive */
-        @media (max-width: 768px) {
+        @media (max-width: 1090px) {
             .hamburger {
                 display: flex;
             }
@@ -1092,10 +1095,9 @@
             <div class="particle"></div>
         </div>
         <div class="hero-content">
-            <div class="hero-logo magnetic">
-                <i class="fas fa-robot"></i>
+            <div class="hero-logo">
             </div>
-            <h1 id="hero-title">DC Robotic School</h1>
+            <h1 id="hero-title">DC Coding - Robotic</h1>
             <p>Belajar Robotika dengan Kreativitas & Fun</p>
             <a href="#about" class="btn-more" id="more-btn">More <i class="fas fa-arrow-down"></i></a>
         </div>
@@ -1105,9 +1107,9 @@
     <section id="about" class="section scroll-reveal" style="background: #f7fafc; padding-top: 5rem;">
         <h2 class="scroll-reveal" style="color: #1a365d;">Profil Perusahaan</h2>
         <div class="section-content scroll-reveal">
-            <p class="scroll-reveal-left" style="color: #2d3748;">DC Robotic School adalah institusi pendidikan teknologi terdepan yang mengkhususkan diri dalam mengajarkan robotika dan coding kepada anak-anak dan remaja. Dengan pendekatan pembelajaran yang inovatif dan menyenangkan, kami berkomitmen untuk membantu generasi muda mengembangkan kemampuan STEM (Science, Technology, Engineering, Mathematics) sejak dini.</p>
+            <p class="scroll-reveal-left" style="color: #2d3748;">DC Coding - Robotic adalah sebuah lembaga pelatihan kursus dengan kurikulum berbasis teknologi kreatifitas dan inovatif yang bisa di pelajari dari anak usia dini sampai dewas, guna membantu pertumbuhan anak-anak agar tumbuh menjadi anak yang kreatif dan inovatif.</p>
             
-            <p class="scroll-reveal-right" style="color: #2d3748;">Didirikan dengan visi untuk menciptakan generasi yang siap menghadapi era digital, DC Robotic School menyediakan kurikulum yang komprehensif mulai dari tingkat dasar hingga lanjutan, menggunakan peralatan dan software terkini dalam industri robotika dan pemrograman.</p>
+            <p class="scroll-reveal-right" style="color: #2d3748;">Didirikan dengan visi untuk menciptakan generasi yang siap menghadapi era digital, DC Coding - Robotic menyediakan kurikulum yang komprehensif mulai dari tingkat dasar hingga lanjutan, menggunakan peralatan dan software terkini dalam industri robotika dan pemrograman.</p>
         </div>
     </section>
 
@@ -1120,14 +1122,15 @@
                     <i class="fas fa-eye"></i>
                 </div>
                 <h3>Visi</h3>
-                <p>Menjadi pusat pembelajaran robotika dan coding terdepan yang melahirkan generasi inovatif dan kreatif dalam bidang teknologi.</p>
+                <p>Menjadikan anak-anak Indonesia tumbuh berkembang menjadi sumber daya manusia kreatif, inovatif. Serta memiliki daya saling yang tinggi untuk kemajuan bangsa Indonesia</p>
             </div>
             <div class="card scroll-reveal-right stagger-2 tilt">
                 <div class="card-icon">
                     <i class="fas fa-bullseye"></i>
                 </div>
                 <h3>Misi</h3>
-                <p>Memberikan pendidikan berkualitas tinggi dalam bidang robotika dan programming dengan metode pembelajaran yang menyenangkan dan aplikatif.</p>
+                <p>• Anak mampu membuat ide-ide baru yang kreatif dan inovatif. <br>• Anak mampu menggunakan sebuah ide kedalam sebuah karya projek kreatif dan inovatif. <br>• Anak mampu berfikir secara
+                    Structural, konseptual dan memiliki analisa yang baik. <br>• Anak mampu bersosial dengan baik dan dapat bekerja teamwork<p>
             </div>
         </div>
     </section>
@@ -1140,22 +1143,22 @@
                 <div class="card-icon">
                     <i class="fas fa-brain"></i>
                 </div>
-                <h3>Mengembangkan Logika Berpikir</h3>
-                <p>Melatih kemampuan problem solving dan berpikir sistematis dalam menyelesaikan masalah.</p>
+                <h3>Meningkatkan Daya Imajinasi</h3>
+                <p>Anak akan dibiasakan untuk membuat sebuah ide yang kemudian dituangkan kedalam sebuah karya nyata.</p>
             </div>
             <div class="card scroll-reveal stagger-2">
                 <div class="card-icon">
                     <i class="fas fa-lightbulb"></i>
                 </div>
-                <h3>Meningkatkan Kreativitas</h3>
-                <p>Mendorong anak untuk berpikir out of the box dan menciptakan solusi inovatif.</p>
+                <h3>Meningkatkan Kreatifitas</h3>
+                <p>Meningkatkan kreatifitas berpikir karena dalam sebuah proses belajarnya anak akan dibiasakan membuat project dengan metode terbaru.</p>
             </div>
             <div class="card scroll-pop stagger-3">
                 <div class="card-icon">
-                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-desktop"></i>
                 </div>
-                <h3>Persiapan Masa Depan</h3>
-                <p>Membekali siswa dengan skill yang dibutuhkan di era digital dan industri 4.0.</p>
+                <h3>Meningkatkan kemampuan Programming</h3>
+                <p>Untuk melatih logic thinking dan kemampuan analisa anak.</p>
             </div>
         </div>
     </section>
@@ -1180,10 +1183,10 @@
             </div>
             <div class="card scroll-reveal-right stagger-3">
                 <div class="card-icon">
-                    <i class="fas fa-certificate"></i>
+                    <i class="fas fa-award"></i>
                 </div>
-                <h3>Kurikulum Terstruktur</h3>
-                <p>Program pembelajaran yang sistematis dan disesuaikan dengan tingkat kemampuan siswa.</p>
+                <h3>Event Kompetissi</h3>
+                <p>Mempunyai event kompetisi setiap tahun untuk memacu semangat anak-anak dalam belajar robotic.</p>
             </div>
         </div>
     </section>
@@ -1192,28 +1195,31 @@
     <section class="section scroll-reveal">
         <h2 class="scroll-reveal">Event Kompetisi Bergengsi</h2>
         <div class="section-content scroll-reveal">
-            <p class="scroll-reveal">Siswa DC Robotic School secara rutin berpartisipasi dalam berbagai kompetisi robotika tingkat nasional dan internasional, termasuk:</p>
+            <p class="scroll-reveal">Untuk memacu semangat belajar anak-anak kami biasnya menyelenggarakan beberapa kompetisi tahunan, kami ikut sertakan anak-anak diajang kompetisi yang lebih bergengsi tingkat nasional dan tingkat dunia diantaranya:</p><p>
             <div class="cards">
                 <div class="card scroll-reveal stagger-1 pulse">
                     <div class="card-icon">
                         <i class="fas fa-trophy"></i>
                     </div>
-                    <h3>World Robot Olympiad</h3>
-                    <p>Kompetisi robotika internasional yang diakui secara global.</p>
+                    <h3>Tingkat Regional</h3>
+                    <p>• DC RFF(Robot Fun Festival).</p>
+                    <p>• Antar Robotic Se JaBoDeTaBek</p>
                 </div>
                 <div class="card scroll-reveal stagger-2 pulse">
                     <div class="card-icon">
                         <i class="fas fa-medal"></i>
                     </div>
-                    <h3>First Lego League</h3>
-                    <p>Kompetisi internasional untuk menginspirasi anak-anak dalam bidang STEM.</p>
+                    <h3>Tingkat Nasional</h3>
+                    <p>• IRO(Indonesia Robot Olympiad).</p>
+                    <P>• IYRC(Indonesia Youth Robotics Competition).</P>
                 </div>
                 <div class="card scroll-reveal stagger-3 pulse">
                     <div class="card-icon">
                         <i class="fas fa-award"></i>
                     </div>
-                    <h3>Kompetisi Robot Indonesia</h3>
-                    <p>Event nasional yang mempertandingkan kreativitas dan inovasi robotika.</p>
+                    <h3>Tingkat Dunia</h3>
+                    <p>• WRO(World Robot Olympiad).</p>
+                    <p>• AYRO(Asian Youth Robotics Olympiad).</p>
                 </div>
             </div>
         </div>
@@ -1256,7 +1262,6 @@
                 <p><a href="gallery.html">Gallery</a></p>
                 <p><a href="pricing.html">Daftar Harga</a></p>
                 <p><a href="contact.html">Kontak & Lokasi</a></p>
-                <p><a href="#">Blog & Artikel</a></p>
             </div>
             
             <div class="footer-section">
@@ -1266,10 +1271,9 @@
                 <p><i class="fas fa-map-marker-alt"></i> Jakarta, Indonesia</p>
                 <p><i class="fas fa-clock"></i> Senin - Sabtu, 08:00 - 17:00</p>
                 
-                <!-- Google Maps Embed -->
-                <div class="footer-map">
+                <div class="footer-map" style="position: relative;">
                     <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d106.8195613!3d-6.2146594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5390917b759%3A0x6b45e67356080477!2sMonas%2C%20Central%20Jakarta%2C%20Jakarta!5e0!3m2!1sen!2sid!4v1635834950000!5m2!1sen!2sid" 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.875974703297!2d107.17713289999999!3d-6.280031699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6985f4e3298a69%3A0xa630106e896ad37e!2sDC%20Robotic%20School!5e0!3m2!1sid!2sid!4v1760963869856!5m2!1sid!2sid" 
                         width="100%" 
                         height="200" 
                         style="border:0; border-radius: 8px; margin-top: 1rem;" 
@@ -1278,6 +1282,10 @@
                         referrerpolicy="no-referrer-when-downgrade"
                         title="Lokasi DC Robotic School">
                     </iframe>
+                    <a href="https://maps.app.goo.gl/djTmFpx8j2LE4FjD9" 
+                       target="_blank" 
+                       style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: block; cursor: pointer;">
+                    </a>
                 </div>
             </div>
         </div>
@@ -1288,99 +1296,99 @@
     </footer>
 
     <script>
-        // Mobile menu toggle
-        const hamburger = document.getElementById('hamburger');
-        const navMenu = document.getElementById('nav-menu');
+     // Mobile menu toggle
+const hamburger = document.getElementById('hamburger');
+const navMenu = document.getElementById('nav-menu');
 
-        hamburger.addEventListener('click', () => {
-            hamburger.classList.toggle('active');
-            navMenu.classList.toggle('active');
-        });
+hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    navMenu.classList.toggle('active');
+});
 
-        // Mobile dropdown toggle functionality
-        document.querySelectorAll('.mobile-dropdown-toggle').forEach(toggle => {
-            toggle.addEventListener('click', (e) => {
-                e.preventDefault();
-                const targetId = toggle.getAttribute('data-target');
-                const targetDropdown = document.getElementById(targetId);
-                
-                // Close all other dropdowns
-                document.querySelectorAll('.mobile-dropdown-content').forEach(dropdown => {
-                    if (dropdown.id !== targetId) {
-                        dropdown.classList.remove('show');
-                    }
-                });
-                
-                // Toggle current dropdown
-                targetDropdown.classList.toggle('show');
-            });
-        });
-
-        // Close mobile menu when clicking on a regular link (not dropdown toggle)
-        document.querySelectorAll('.nav-link:not(.mobile-dropdown-toggle), .mobile-dropdown-content a').forEach(link => {
-            link.addEventListener('click', () => {
-                hamburger.classList.remove('active');
-                navMenu.classList.remove('active');
-                // Close all dropdowns
-                document.querySelectorAll('.mobile-dropdown-content').forEach(dropdown => {
-                    dropdown.classList.remove('show');
-                });
-            });
-        });
-
-        // Scroll Reveal Animation
-        const observerOptions = {
-            threshold: 0.15,
-            rootMargin: '0px 0px -20px 0px'
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('revealed');
-                    // Ensure transform doesn't get overridden
-                    entry.target.style.position = 'relative';
-                    entry.target.style.zIndex = 'auto';
-                }
-            });
-        }, observerOptions);
-
-        // Observe all scroll reveal elements
-        document.querySelectorAll('.scroll-reveal, .scroll-reveal-left, .scroll-reveal-right').forEach(el => {
-            observer.observe(el);
-        });
-
-        // Parallax effect for hero section only
-        window.addEventListener('scroll', () => {
-            const scrolled = window.pageYOffset;
-            const hero = document.querySelector('.hero');
-            const heroHeight = hero ? hero.offsetHeight : 0;
-            
-            // Only apply parallax when we're still in the hero section
-            if (hero && scrolled < heroHeight) {
-                hero.style.transform = `translateY(${scrolled * 0.3}px)`;
-            } else if (hero) {
-                hero.style.transform = 'translateY(0)';
+// Mobile dropdown toggle functionality
+document.querySelectorAll('.mobile-dropdown-toggle').forEach(toggle => {
+    toggle.addEventListener('click', (e) => {
+        e.preventDefault();
+        const targetId = toggle.getAttribute('data-target');
+        const targetDropdown = document.getElementById(targetId);
+        
+        // Close all other dropdowns
+        document.querySelectorAll('.mobile-dropdown-content').forEach(dropdown => {
+            if (dropdown.id !== targetId) {
+                dropdown.classList.remove('show');
             }
         });
+        
+        // Toggle current dropdown
+        targetDropdown.classList.toggle('show');
+    });
+});
 
-        // Add loading animation to page
-        window.addEventListener('load', () => {
-            document.body.style.opacity = '0';
-            document.body.style.transition = 'opacity 0.5s ease-in-out';
-            setTimeout(() => {
-                document.body.style.opacity = '1';
-            }, 100);
+// Close mobile menu when clicking on a regular link (not dropdown toggle)
+document.querySelectorAll('.nav-link:not(.mobile-dropdown-toggle), .mobile-dropdown-content a').forEach(link => {
+    link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navMenu.classList.remove('active');
+        // Close all dropdowns
+        document.querySelectorAll('.mobile-dropdown-content').forEach(dropdown => {
+            dropdown.classList.remove('show');
         });
+    });
+});
 
-       // Smooth scrolling for anchor links
+// Scroll Reveal Animation
+const observerOptions = {
+    threshold: 0.15,
+    rootMargin: '0px 0px -20px 0px'
+};
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('revealed');
+            // Ensure transform doesn't get overridden
+            entry.target.style.position = 'relative';
+            entry.target.style.zIndex = 'auto';
+        }
+    });
+}, observerOptions);
+
+// Observe all scroll reveal elements
+document.querySelectorAll('.scroll-reveal, .scroll-reveal-left, .scroll-reveal-right').forEach(el => {
+    observer.observe(el);
+});
+
+// Parallax effect for hero section only
+window.addEventListener('scroll', () => {
+    const scrolled = window.pageYOffset;
+    const hero = document.querySelector('.hero');
+    const heroHeight = hero ? hero.offsetHeight : 0;
+    
+    // Only apply parallax when we're still in the hero section
+    if (hero && scrolled < heroHeight) {
+        hero.style.transform = `translateY(${scrolled * 0.3}px)`;
+    } else if (hero) {
+        hero.style.transform = 'translateY(0)';
+    }
+});
+
+// Add loading animation to page
+window.addEventListener('load', () => {
+    document.body.style.opacity = '0';
+    document.body.style.transition = 'opacity 0.5s ease-in-out';
+    setTimeout(() => {
+        document.body.style.opacity = '1';
+    }, 100);
+});
+
+// Smooth scrolling for anchor links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
         const target = document.querySelector(this.getAttribute('href'));
         if (target) {
-            const navbarHeight = document.querySelector('.navbar').offsetHeight; // Ambil tinggi navbar
-            const targetPosition = target.offsetTop - navbarHeight - 20; // Tambahkan offset 20px untuk jarak tambahan
+            const navbarHeight = document.querySelector('.navbar').offsetHeight;
+            const targetPosition = target.offsetTop - navbarHeight - 20;
             window.scrollTo({
                 top: targetPosition,
                 behavior: 'smooth'
@@ -1389,234 +1397,231 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-        // Add scroll progress indicator
-        const createScrollProgress = () => {
-            const progressBar = document.createElement('div');
-            progressBar.style.cssText = `
-                position: fixed;
-                top: 0;
-                left: 0;
-                width: 0%;
-                height: 3px;
-                background: linear-gradient(90deg, #2d5aa0, #e53e3e);
-                z-index: 9999;
-                transition: width 0.3s ease;
-            `;
-            document.body.appendChild(progressBar);
+// Add scroll progress indicator
+const createScrollProgress = () => {
+    const progressBar = document.createElement('div');
+    progressBar.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 3px;
+        background: linear-gradient(90deg, #2d5aa0, #e53e3e);
+        z-index: 9999;
+        transition: width 0.3s ease;
+    `;
+    document.body.appendChild(progressBar);
 
-            window.addEventListener('scroll', () => {
-                const scrollTop = window.pageYOffset;
-                const docHeight = document.body.offsetHeight - window.innerHeight;
-                const scrollPercent = (scrollTop / docHeight) * 100;
-                progressBar.style.width = scrollPercent + '%';
-            });
-        };
+    window.addEventListener('scroll', () => {
+        const scrollTop = window.pageYOffset;
+        const docHeight = document.body.offsetHeight - window.innerHeight;
+        const scrollPercent = (scrollTop / docHeight) * 100;
+        progressBar.style.width = scrollPercent + '%';
+    });
+};
 
-        createScrollProgress();
+createScrollProgress();
 
-        // Auto detect active page for navbar
-        const setActiveNavLink = () => {
-            const currentPage = window.location.pathname.split('/').pop() || 'index.html';
-            const navLinks = document.querySelectorAll('.nav-link:not(.mobile-dropdown-toggle)');
-            
-            navLinks.forEach(link => {
-                const href = link.getAttribute('href');
-                // Check if this is home page and link is home
-                if ((href === '#top' || href === 'index.html') && 
-                    (currentPage === 'index.html' || currentPage === '' || window.location.hash === '#top')) {
-                    link.classList.add('active');
-                } else if (href === currentPage) {
-                    link.classList.add('active');
-                } else {
-                    link.classList.remove('active');
-                }
-            });
-        };
+// Auto detect active page for navbar
+const setActiveNavLink = () => {
+    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+    const navLinks = document.querySelectorAll('.nav-link:not(.mobile-dropdown-toggle)');
+    
+    navLinks.forEach(link => {
+        const href = link.getAttribute('href');
+        // Check if this is home page and link is home
+        if ((href === '#top' || href === 'index.html') && 
+            (currentPage === 'index.html' || currentPage === '' || window.location.hash === '#top')) {
+            link.classList.add('active');
+        } else if (href === currentPage) {
+            link.classList.add('active');
+        } else {
+            link.classList.remove('active');
+        }
+    });
+};
 
-        // Set active nav on page load
-        setActiveNavLink();
+// Set active nav on page load
+setActiveNavLink();
 
-        // Mouse cursor magic effect (exclude more button)
-        const createCursorMagic = () => {
-            let mouseX = 0, mouseY = 0;
-            let cursorX = 0, cursorY = 0;
-            
-            document.addEventListener('mousemove', (e) => {
-                mouseX = e.clientX;
-                mouseY = e.clientY;
-            });
+// Mouse cursor magic effect (exclude more button and logo)
+const createCursorMagic = () => {
+    let mouseX = 0, mouseY = 0;
+    let cursorX = 0, cursorY = 0;
+    
+    document.addEventListener('mousemove', (e) => {
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+    });
 
-            const animateCursor = () => {
-                cursorX += (mouseX - cursorX) * 0.1;
-                cursorY += (mouseY - cursorY) * 0.1;
-                
-                // Add magnetic effect to interactive elements (except more button)
-                document.querySelectorAll('.magnetic:not(#more-btn)').forEach(el => {
-                    const rect = el.getBoundingClientRect();
-                    const centerX = rect.left + rect.width / 2;
-                    const centerY = rect.top + rect.height / 2;
-                    const distance = Math.sqrt((mouseX - centerX) ** 2 + (mouseY - centerY) ** 2);
-                    
-                    if (distance < 100) {
-                        const strength = (100 - distance) / 100;
-                        const deltaX = (mouseX - centerX) * strength * 0.2;
-                        const deltaY = (mouseY - centerY) * strength * 0.2;
-                        el.style.transform = `translate(${deltaX}px, ${deltaY}px)`;
-                    } else {
-                        el.style.transform = 'translate(0px, 0px)';
-                    }
-                });
-                
-                requestAnimationFrame(animateCursor);
-            };
-            
-            animateCursor();
-        };
-
-        createCursorMagic();
-
-        // Enhanced parallax effect
-        let ticking = false;
+    const animateCursor = () => {
+        cursorX += (mouseX - cursorX) * 0.1;
+        cursorY += (mouseY - cursorY) * 0.1;
         
-        const updateParallax = () => {
-            const scrolled = window.pageYOffset;
-            const rate = scrolled * -0.5;
+        // Add magnetic effect to interactive elements (except more button and logo)
+        document.querySelectorAll('.magnetic:not(#more-btn):not(.hero-logo)').forEach(el => {
+            const rect = el.getBoundingClientRect();
+            const centerX = rect.left + rect.width / 2;
+            const centerY = rect.top + rect.height / 2;
+            const distance = Math.sqrt((mouseX - centerX) ** 2 + (mouseY - centerY) ** 2);
             
-            document.querySelectorAll('.hero').forEach(hero => {
-                hero.style.transform = `translateY(${rate}px)`;
-            });
-            
-            // Parallax particles
-            document.querySelectorAll('.particle').forEach((particle, index) => {
-                const speed = (index + 1) * 0.3;
-                particle.style.transform = `translateY(${scrolled * speed}px)`;
-            });
-            
-            ticking = false;
-        };
-
-        const requestTick = () => {
-            if (!ticking) {
-                requestAnimationFrame(updateParallax);
-                ticking = true;
-            }
-        };
-
-        window.addEventListener('scroll', requestTick);
-
-        // Add entrance animation for cards
-        const addCardAnimations = () => {
-            const cards = document.querySelectorAll('.card');
-            cards.forEach((card, index) => {
-                card.addEventListener('mouseenter', () => {
-                    card.style.animationDelay = '0s';
-                    card.style.animation = 'shake 0.5s ease-in-out';
-                });
-                
-                card.addEventListener('mouseleave', () => {
-                    setTimeout(() => {
-                        card.style.animation = '';
-                    }, 500);
-                });
-            });
-        };
-
-        addCardAnimations();
-
-        // Fix typewriter animation and button visibility
-        setTimeout(() => {
-            const heroTitle = document.getElementById('hero-title');
-            const moreBtn = document.getElementById('more-btn');
-            
-            if (heroTitle) {
-                heroTitle.classList.add('typing-done');
-            }
-        }, 4500); // After typewriter animation completes
-
-        // Enhanced More button effects (replace magnetic effect for this button)
-        const createMoreButtonEffects = () => {
-            const moreBtn = document.getElementById('more-btn');
-            if (!moreBtn) return;
-
-            // Remove magnetic class to prevent conflicts
-            moreBtn.classList.remove('magnetic');
-            
-            let mouseX = 0, mouseY = 0;
-            
-            document.addEventListener('mousemove', (e) => {
-                mouseX = e.clientX;
-                mouseY = e.clientY;
-                
-                const rect = moreBtn.getBoundingClientRect();
-                const centerX = rect.left + rect.width / 2;
-                const centerY = rect.top + rect.height / 2;
-                const distance = Math.sqrt((mouseX - centerX) ** 2 + (mouseY - centerY) ** 2);
-                
-                // Different effects based on distance
-                if (distance < 80) {
-                    // Close hover - full effect
-                    moreBtn.classList.remove('nearby');
-                    moreBtn.style.transform = 'translateY(-5px) scale(1.08)';
-                } else if (distance < 150) {
-                    // Proximity effect
-                    moreBtn.classList.add('nearby');
-                    moreBtn.style.transform = 'translateY(-2px) scale(1.02)';
-                } else {
-                    // Normal state
-                    moreBtn.classList.remove('nearby');
-                    moreBtn.style.transform = 'translateY(0px) scale(1)';
-                }
-            });
-            
-            // Ensure button stays visible with proper hover states
-            moreBtn.addEventListener('mouseenter', () => {
-                moreBtn.style.opacity = '1';
-                moreBtn.style.visibility = 'visible';
-            });
-            
-            moreBtn.addEventListener('mouseleave', () => {
-                moreBtn.style.transform = 'translateY(0px) scale(1)';
-                moreBtn.classList.remove('nearby');
-            });
-        };
-
-        // Initialize enhanced effects after button appears
-        setTimeout(() => {
-            createMoreButtonEffects();
-        }, 6000); // After button appears
-
-        // Handle Home navigation
-        document.getElementById('home-link').addEventListener('click', (e) => {
-            e.preventDefault();
-            
-            // If already at top, refresh page
-            if (window.scrollY < 100) {
-                window.location.reload();
+            if (distance < 100) {
+                const strength = (100 - distance) / 100;
+                const deltaX = (mouseX - centerX) * strength * 0.2;
+                const deltaY = (mouseY - centerY) * strength * 0.2;
+                el.style.transform = `translate(${deltaX}px, ${deltaY}px)`;
             } else {
-                // Smooth scroll to top
-                window.scrollTo({
-                    top: 0,
-                    behavior: 'smooth'
-                });
-                
-                // Update active state after scroll
-                setTimeout(() => {
-                    setActiveNavLink();
-                }, 1000);
+                el.style.transform = 'translate(0px, 0px)';
             }
         });
+        
+        requestAnimationFrame(animateCursor);
+    };
+    
+    animateCursor();
+};
 
-        // Update active state on scroll for single page
-        let scrollTimer = null;
-        window.addEventListener('scroll', () => {
-            if (scrollTimer) {
-                clearTimeout(scrollTimer);
-            }
-            
-            scrollTimer = setTimeout(() => {
-                setActiveNavLink();
-            }, 100);
+createCursorMagic();
+
+// Enhanced parallax effect
+let ticking = false;
+
+const updateParallax = () => {
+    const scrolled = window.pageYOffset;
+    const rate = scrolled * -0.5;
+    
+    document.querySelectorAll('.hero').forEach(hero => {
+        hero.style.transform = `translateY(${rate}px)`;
+    });
+    
+    // Parallax particles
+    document.querySelectorAll('.particle').forEach((particle, index) => {
+        const speed = (index + 1) * 0.3;
+        particle.style.transform = `translateY(${scrolled * speed}px)`;
+    });
+    
+    ticking = false;
+};
+
+const requestTick = () => {
+    if (!ticking) {
+        requestAnimationFrame(updateParallax);
+        ticking = true;
+    }
+};
+
+window.addEventListener('scroll', requestTick);
+
+// Add entrance animation for cards
+const addCardAnimations = () => {
+    const cards = document.querySelectorAll('.card');
+    cards.forEach((card, index) => {
+        card.addEventListener('mouseenter', () => {
+            card.style.animationDelay = '0s';
+            card.style.animation = 'shake 0.5s ease-in-out';
         });
+        
+        card.addEventListener('mouseleave', () => {
+            setTimeout(() => {
+                card.style.animation = '';
+            }, 500);
+        });
+    });
+};
+
+addCardAnimations();
+
+// Fix typewriter animation - no glitch version
+window.addEventListener('load', () => {
+    const heroTitle = document.getElementById('hero-title');
+    
+    if (heroTitle) {
+        // Mulai animasi typewriter
+        setTimeout(() => {
+            heroTitle.classList.add('typing');
+        }, 1000);
+        
+        // Selesaikan animasi dengan smooth transition
+        setTimeout(() => {
+            heroTitle.classList.remove('typing');
+            heroTitle.classList.add('typing-done');
+            
+            // Force cleanup untuk prevent glitch
+            requestAnimationFrame(() => {
+                heroTitle.style.animation = 'none';
+                heroTitle.style.borderRight = 'none';
+                heroTitle.style.overflow = 'visible';
+                heroTitle.style.whiteSpace = 'normal';
+                heroTitle.style.width = '100%';
+                heroTitle.style.display = 'block';
+            });
+        }, 4000); // 1000ms delay + 3000ms animation
+    }
+});
+
+// Enhanced More button effects (replace magnetic effect for this button)
+const createMoreButtonEffects = () => {
+    const moreBtn = document.getElementById('more-btn');
+    if (!moreBtn) return;
+
+    // Remove magnetic class to prevent conflicts
+    moreBtn.classList.remove('magnetic');
+    
+    let mouseX = 0, mouseY = 0;
+    
+    document.addEventListener('mousemove', (e) => {
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+        
+        const rect = moreBtn.getBoundingClientRect();
+        const centerX = rect.left + rect.width / 2;
+        const centerY = rect.top + rect.height / 2;
+        const distance = Math.sqrt((mouseX - centerX) ** 2 + (mouseY - centerY) ** 2);
+        
+        // Different effects based on distance
+        if (distance < 80) {
+            // Close hover - full effect
+            moreBtn.classList.remove('nearby');
+            moreBtn.style.transform = 'translateY(-5px) scale(1.08)';
+        } else if (distance < 150) {
+            // Proximity effect
+            moreBtn.classList.add('nearby');
+            moreBtn.style.transform = 'translateY(-2px) scale(1.02)';
+        } else {
+            // Normal state
+            moreBtn.classList.remove('nearby');
+            moreBtn.style.transform = 'translateY(0px) scale(1)';
+        }
+    });
+    
+    // Ensure button stays visible with proper hover states
+    moreBtn.addEventListener('mouseenter', () => {
+        moreBtn.style.opacity = '1';
+        moreBtn.style.visibility = 'visible';
+    });
+    
+    moreBtn.addEventListener('mouseleave', () => {
+        moreBtn.style.transform = 'translateY(0px) scale(1)';
+        moreBtn.classList.remove('nearby');
+    });
+};
+
+// Initialize enhanced effects after button appears
+setTimeout(() => {
+    createMoreButtonEffects();
+}, 5000); // After button appears
+
+// Update active state on scroll for single page
+let scrollTimer = null;
+window.addEventListener('scroll', () => {
+    if (scrollTimer) {
+        clearTimeout(scrollTimer);
+    }
+    
+    scrollTimer = setTimeout(() => {
+        setActiveNavLink();
+    }, 100);
+});
     </script>
 </body>
 </html>
